@@ -1,0 +1,219 @@
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Headings */
+
+.big-heading {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Containers */
+
+.container-fluid{
+  padding: 7% 15%;
+}
+
+/* Sections */
+
+.colored-section {
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.purple-section {
+  background-color: #AE4CCF;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Playfair Display', serif;
+  font-weight: 600;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
+
+/* Buttons */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Section */
+
+#title {
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 20% 7%;
+}
+
+#title-image-div {
+  text-align: right;
+}
+
+/* Images */
+
+.title-image {
+  width: 70%;
+  border: 10px solid #fff;
+}
+
+.gallery-image {
+  width: 60%;
+  border: 10px solid #B983FF;
+}
+
+.card-image {
+  width: 60%;
+  border-radius: 50%;
+  border: 10px solid #B983FF;
+  margin-bottom: 1rem;
+}
+
+/* Features Section */
+
+#features {
+  position: relative;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.feature-box {
+  padding: 4.5%;
+}
+
+.icon {
+  color: #AE4CCF;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #9145B6;
+}
+
+.contact-us-icon {
+  color: #AE4CCF;
+  margin: 2rem;
+}
+
+.contact-us-icon:hover {
+  color: #9145B6;
+}
+
+/* Testimonial Section */
+
+#testimonials {
+  background-color: #ef8172;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Mailing List Section */
+
+.mailing-list-section {
+  margin-top: 50px;
+}
+
+/* Pricing Section */
+
+#pricing {
+  padding: 100px;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* CTA Section */
+
+
+/* Footer Section */
+
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+
+  #title-image-div {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
