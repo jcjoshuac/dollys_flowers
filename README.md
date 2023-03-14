@@ -2,4 +2,4 @@
 
 Description: Web app developed for a small local flower shop in Singapore <br />
 
-Technologies/Languages: Node.js, Mailchimp API <br />
+Technologies/Languages: Node.js, Mailchimp API, HTML, JavaScript, CSS <br />
